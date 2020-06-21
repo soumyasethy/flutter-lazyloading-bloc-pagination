@@ -1,9 +1,5 @@
 abstract class DataEvent {}
 
-class DataLoad extends DataEvent {
-  DataLoad();
-}
+class DataLoad extends DataEvent {}
 
-class DataLoadMore extends DataEvent {
-  DataLoadMore();
-}
+class DataLoadMore extends DataEvent {}

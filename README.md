@@ -1,4 +1,5 @@
-![alt text](https://github.com/soumyasethy/flutter-lazyloading-bloc-pagination/blob/master/loading_animation.gif)
+![alt text](https://github.com/soumyasethy/flutter-lazyloading-bloc-pagination/blob/master/ios_animation.gif)
+![alt text](https://github.com/soumyasethy/flutter-lazyloading-bloc-pagination/blob/master/android_animation.gif)
 # paginationlistview
 
 A new Flutter application.

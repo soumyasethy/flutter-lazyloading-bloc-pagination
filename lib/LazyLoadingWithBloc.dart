@@ -17,7 +17,11 @@ class _LazyLoadingWithBlocState extends State<LazyLoadingWithBloc> {
   @override
   void initState() {
     super.initState();
+
+    //initial data load
     dataBloc.add(DataLoad());
+
+    //triggers when scrolling reached to bottom
     _scrollController.addListener(() {
       if (_scrollController.position.pixels ==
           _scrollController.position.maxScrollExtent) {
@@ -46,6 +50,7 @@ class _LazyLoadingWithBlocState extends State<LazyLoadingWithBloc> {
               itemExtent: 80,
               itemBuilder: (context, i) {
                 if (i == state.myList.length) {
+                  //showing loader at the bottom of list
                   return Center(child: CircularProgressIndicator());
                 }
                 return ListTile(
